@@ -10,9 +10,11 @@ NEON lidar and imagery analyses on cloud and HPC
 
 **Learning Objectives**: [NEON’s data science skills](http://www.neonscience.org/opportunities/learning-opportunities/neon-data-skills) provide notebooks and lesson plans for analyzing hyperspectral imagery. I plan to develop complementary notebooks for downloading [AOP lidar data](http://www.neonscience.org/data-collection/airborne-remote-sensing); segmenting individual organisms (herbaceous plants, woody shrubs, and trees) using open-source code, vertically sampling (all bands and time series) hyperspectral signatures for each organism.
 
-## Prerequisites
+The lessons are targeted toward advanced graduate students and researchers. Lessons are expected to take at least one week, e.g. 2-3 lectures, one computer lab session, with online nightly homework.
 
-Lessons are targeted toward advanced graduate students and researchers.
+Students will be allowed to work in small teams (paired programming) to develop their individual notebooks.
+
+## Prerequisites
 
 * Basic understanding of:
   * R 
@@ -85,7 +87,7 @@ Lessons are targeted toward advanced graduate students and researchers.
 
 ## Lesson 8: Statistical Analyses in Jupyter
 
-**Goals**: Conduct statistical analyes on your new datasets
+**Goals**: Conduct statistical analsyes on your new datasets
 
 * Graphical representations of the data
   * `matplotlib`
