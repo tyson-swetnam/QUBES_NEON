@@ -12,12 +12,14 @@ NEON lidar and imagery analyses on cloud and HPC
 
 ## Prerequisites
 
-* Lessons are targeted toward advanced graduate students and researchers.
-* Students need basic understanding of:
- * R and Python, 
- * command line interfaces (CLI)  
-* Lessons from [The Carpentries](https://software-carpentry.org/lessons/) are encouraged. 
-* Basic understanding of [geospatial data analysis](http://www.datacarpentry.org/r-spatial-data-management-intro/) is also encouraged. 
+Lessons are targeted toward advanced graduate students and researchers.
+
+* Basic understanding of:
+  * R 
+  * Python 
+  * command line interface (CLI)  
+* Data science lessons from [The Carpentries](https://software-carpentry.org/lessons/) are encouraged. 
+* Understanding of [geospatial data analysis](http://www.datacarpentry.org/r-spatial-data-management-intro/) is also encouraged. 
 
 ## Lesson 1: Data Science Workbench
 
