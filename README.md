@@ -1,6 +1,6 @@
 # Santa Rita Experimental Range NEON lidar exercises
 
-NEON lidar data analyses coupled with programming skills on cldou
+NEON lidar and imagery analyses on cloud and HPC
 
 **Author**: Tyson Lee Swetnam
 
@@ -12,9 +12,12 @@ NEON lidar data analyses coupled with programming skills on cldou
 
 ## Prerequisites
 
-Lessons are targeted toward advanced graduate students and researchers.
-
-Students need basic understanding of R and Python, command line interfaces (CLI), and functional programming. Lessons from [The Carpentries](https://software-carpentry.org/lessons/) are encouraged. Basic understanding of [geospatial data analysis](http://www.datacarpentry.org/r-spatial-data-management-intro/) is also needed. 
+* Lessons are targeted toward advanced graduate students and researchers.
+* Students need basic understanding of:
+ * R and Python, 
+ * command line interfaces (CLI)  
+* Lessons from [The Carpentries](https://software-carpentry.org/lessons/) are encouraged. 
+* Basic understanding of [geospatial data analysis](http://www.datacarpentry.org/r-spatial-data-management-intro/) is also encouraged. 
 
 ## Lesson 1: Data Science Workbench
 
