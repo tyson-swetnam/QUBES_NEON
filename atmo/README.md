@@ -18,7 +18,7 @@ GRASS also requires that its environment be set for graphical (GUI) interaction
 Run the build shell file and immediately follow with the GUI setup:
 
 ```
-. build_grass.sh && setup_grass.sh
+. build_grass.sh && setup_grass_env.sh
 ```
 
 ## Install QGIS
