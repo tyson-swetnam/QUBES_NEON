@@ -1,4 +1,4 @@
-# Santa Rita Experimental Range NEON lidar exercises
+# QUBES NEON lidar exercises
 
 NEON lidar and imagery analyses on cloud and HPC
 
