@@ -14,10 +14,10 @@ Contains scripts for building virtual machines that are provisioned for geospati
 
 Contains the lessons for working with the NEON AOP data
 
-## pdal
-
-Contains instructions and .json files for running PDAL, Entwine, Greyhound, and Potree. 
-
 ## lidR
 
 Contains files for the library `lidR` with scripting in R
+
+## pdal
+
+Contains instructions and .json files for running PDAL, Entwine, Greyhound, and Potree. 
