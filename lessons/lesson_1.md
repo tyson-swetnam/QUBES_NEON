@@ -50,7 +50,6 @@ change directory to the new repo with these installation scripts:
 cd focus-forum/atmo
 ```
 
-
 # Setting up CyVerse Data Store and iRods iCommands 
 
 [CyVerse Instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
@@ -87,6 +86,14 @@ Download [i-commands-auto.bash](https://pods.iplantcollaborative.org/wiki/downlo
 In your home directory, rename i-commands-auto.bash to .i-commands-auto.bash
 In your .bashrc or .bash_profile, enter the following: 
 source .i-commands-auto.bash
+
+# EZ Installation Quick Start Tutorial
+
+We can also install data science software using containers or Python distribution.
+
+CyVerse has set up an `ez` installation for Docker, Singularity, and Jupyter Notebooks (via Anaconda)
+
+Follow the [CyVerse Learning Center's Quick Start](https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/) 
 
 ## install Jupyter Notebook & Lab
 
@@ -170,11 +177,3 @@ to install QGIS natively
 ```
 
 In Apache Guacamole Desktop: Right click mouse, select Applications > Education > QGIS Desktop
-
-# EZ Installation Quick Start Tutorial
-
-We can also install data science software using containers or Python distribution.
-
-CyVerse has set up an `ez` installation for Docker, Singularity, and Jupyter Notebooks (via Anaconda)
-
-Follow the [CyVerse Learning Center's Quick Start](https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/) 
