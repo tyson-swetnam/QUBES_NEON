@@ -19,13 +19,15 @@ Students will be allowed to work in small teams (paired programming) to develop 
 * Basic understanding of:
   * R 
   * Python 
-  * command line interface (CLI)  
+  * command line interface (CLI)
 * Data science lessons from [The Carpentries](https://software-carpentry.org/lessons/) are encouraged. 
 * Understanding of [geospatial data analysis](http://www.datacarpentry.org/r-spatial-data-management-intro/) is also encouraged. 
 
 ## Lesson 1: Data Science Workbench
 
 **Goals**: Provision virtual machines on [CyVerse Atmosphere](https://atmo.cyverse.org/application) or [XSEDE Jetstream](https://use.jetstream-cloud.org/application), and [Discovery Environment](https://de.cyverse.org/de/), for data analyses.
+
+**Value**: Learn how to launch remote metal on fast Internet2.
 
 * Use [CyVerse Learning Center tutorials](https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/) to deploy container software ([Anaconda (Jupyter)](https://anaconda.org/anaconda/jupyter), [Docker](https://www.docker.com/), and [Singularity](http://singularity.lbl.gov/)).
 
@@ -35,6 +37,8 @@ Students will be allowed to work in small teams (paired programming) to develop 
 
 **Goals**: Learn how to download NEON data
 
+**Value**: Get the data!
+
 * Introduce the [NEON Data API](https://github.com/NEONScience/neon-data-api)   
 * Develop Python Jupyter Notebooks for downloading lidar & imagery data 
 * Develop Rmarkdown notebooks for downloading lidar & imagery data
@@ -42,6 +46,8 @@ Students will be allowed to work in small teams (paired programming) to develop 
 ## Lesson 3: Lidar data QAQC and Visualization
 
 **Goals**: Learn how to do basic lidar processing and visualization.
+
+**Value**: Be able to improve classification of lidar and visualize 
 
 * Introduce[PDAL](https://www.pdal.io/) (w/ Docker) for lidar classification. 
   * CLI executions.
@@ -56,6 +62,8 @@ Students will be allowed to work in small teams (paired programming) to develop 
 
 **Goals**: Learn how to segment individual trees/shrubs/herbaceous plants from lidar data in R.
 
+**Value**: Generate ecologically relevant inventory (census) of physical characteristics.
+
 * Run lidR stem segmentation
 
 * Develop an individual object (plant) inventory for various scales.
@@ -66,17 +74,23 @@ Students will be allowed to work in small teams (paired programming) to develop 
 
 **Goals**: Learn to use NEON hyperspectral imagery.
 
+**Value**: Utilize hyperspectral imagery which will allow species level ID and phenology (health).
+
 * Utilize existing [NEON Data Skills hyperspectral](http://neondataskills.org/hyperspectral-remote-sensing/)
 
 ## Lesson 6: Point/polygon sampling of individuals w/ corresponding hyperspectral signatures
 
 **Goals**: Learn to point and polygon sample individual plants in R
 
+**Value**: Ecologically relevant inventory with phenology and species.
+
 * Attribute individual organisms with their corresponding hyperspectral reflectances
 
 ## Lesson 7: Statistical Analyses in RStudio
 
 **Goals**: Conduct statistical analyses on your new datasets.
+
+**Value**: Hypothesis testing using data.
 
 * Graphical representations of the data 
   * `ggplot2`
@@ -88,6 +102,8 @@ Students will be allowed to work in small teams (paired programming) to develop 
 ## Lesson 8: Statistical Analyses in Jupyter
 
 **Goals**: Conduct statistical analsyes on your new datasets
+
+**Value**: Hypothesis testing using data.
 
 * Graphical representations of the data
   * `matplotlib`
