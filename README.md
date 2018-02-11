@@ -1,6 +1,6 @@
 # QUBES NEON lidar exercises
 
-NEON lidar and imagery analyses on cloud and HPC
+NEON AOP lidar and imagery analyses on cloud and HPC
 
 **Author**: Tyson Lee Swetnam
 
