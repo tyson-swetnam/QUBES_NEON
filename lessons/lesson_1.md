@@ -2,13 +2,20 @@
 
 The following scripts install GIS software on an Atmosphere or Jetstream VM running Ubuntu 16.04 (Xenial). A GUI image is preferred, but not required if you don't want / need one.
 
-## First Steps
+## First Step
+
+Log into CyVerse Atmosphere or XSEDE Jetstream (note: you must have a registered account with either CyVerse or XSEDE Jetstream)
 
 Start an Atmosphere or Jetstream instance running  Linux [Ubuntu 14.04](https://atmo.cyverse.org/application/images/1135) or [16.04 GUI base](https://atmo.cyverse.org/application/images/1453).
 
 Allow the instance to reach 'active' status. Instances  typically take 3-7 minutes to boot up the first time.
 
-Log into the Apache Guacamole web shell to access terminal.
+Log into the Apache Guacamole web shell to access terminal, or use `ssh` from a terminal on your local machine
+
+```
+ssh CyVerseUserName@<INSTANCE-IP-ADDRESS>
+```
+
 
 Or from the Apache Guacamole Desktop, right click mouse, select Terminal Emulator
 
