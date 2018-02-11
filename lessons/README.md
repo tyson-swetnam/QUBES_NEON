@@ -1,12 +1,12 @@
-# QUBES NEON lidar exercises
+# QUBES NEON teaching exercises
 
-NEON lidar and imagery analyses on cloud and HPC
+Focus on NEON AOP lidar and hyperspectral imagery, conducting analyses on cloud and HPC.
 
 **Author**: Tyson Lee Swetnam
 
 **Intent**: I am not teaching this as a course (yet). I’ve got some flexibility in developing the lesson plan and pacing. 
 
-**Teaching Philosophy**: I want to take a reproducible science approach, using basic pre-written notebooks with empty code sections that can be filled in by the student programmers. 
+**Teaching Philosophy**: I want to take a reproducible science approach, using pre-written Jupyter notebooks with empty code sections that can be filled in by the student programmers. 
 
 **Learning Objectives**: [NEON’s data science skills](http://www.neonscience.org/opportunities/learning-opportunities/neon-data-skills) provide notebooks and lesson plans for analyzing hyperspectral imagery. I plan to develop complementary notebooks for downloading [AOP lidar data](http://www.neonscience.org/data-collection/airborne-remote-sensing); segmenting individual organisms (herbaceous plants, woody shrubs, and trees) using open-source code, vertically sampling (all bands and time series) hyperspectral signatures for each organism.
 
@@ -27,13 +27,13 @@ Students will be allowed to work in small teams (paired programming) to develop 
 
 **Goals**: Provision virtual machines on [CyVerse Atmosphere](https://atmo.cyverse.org/application) or [XSEDE Jetstream](https://use.jetstream-cloud.org/application), and [Discovery Environment](https://de.cyverse.org/de/), for data analyses.
 
-**Value**: Learn how to launch remote metal on fast Internet2.
+**Value**: Learn to launch remote metal running on fast Internet2.
 
 * Use [CyVerse Learning Center tutorials](https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/) to deploy container software ([Anaconda (Jupyter)](https://anaconda.org/anaconda/jupyter), [Docker](https://www.docker.com/), and [Singularity](http://singularity.lbl.gov/)).
 
 * [Launch virtual machine](https://github.com/tyson-swetnam/SRER_NEON/wiki/Virtual-Machines-QuickStart) and install the necessary software: [Rocker RStudio](https://hub.docker.com/u/rocker/), & [Jupyter](http://jupyter.org/) Notebooks and [Lab](https://github.com/jupyterlab/jupyterlab) for running NEON data analyses.
 
-## Lesson 2: Get NEON data
+## Lesson 2: Get NEON AOP data
 
 **Goals**: Learn how to download NEON data
 
@@ -45,9 +45,9 @@ Students will be allowed to work in small teams (paired programming) to develop 
 
 ## Lesson 3: Lidar data QAQC and Visualization
 
-**Goals**: Learn how to do basic lidar processing and visualization.
+**Goals**: Learn basic lidar processing and visualization techniques.
 
-**Value**: Be able to improve classification of lidar and visualize 
+**Value**: Improve classification (bare earth, vegetation, infrastructure) of lidar and visualize data anywhere. 
 
 * Introduce[PDAL](https://www.pdal.io/) (w/ Docker) for lidar classification. 
   * CLI executions.
