@@ -5,7 +5,7 @@ If you haven't pulled the repository yet:
 ```
 git clone https://github.com/tyson-swetnam/QUBES_NEON.git
 
-cd QUBES_NEON/atmo
+cd QUBES_NEON
 
 ```
 
@@ -18,7 +18,7 @@ GRASS also requires that its environment be set for graphical (GUI) interaction
 Run the build shell file and immediately follow with the GUI setup:
 
 ```
-. build_grass.sh && setup_grass_env.sh
+. atmo/build_grass.sh && setup_grass_env.sh
 ```
 
 ## Install QGIS
@@ -28,7 +28,7 @@ Here I am installing QGIS from a binary (pre-built)
 Run the shell file:
 
 ```
-. install_qgis.sh
+. atmo/install_qgis.sh
 
 ```
 
@@ -39,5 +39,5 @@ Because we are running on remote hardware, I want to use RStudio-Server, which I
 Here I am building RStudio-Server from its binary:
 
 ```
-. install_rstudio.sh
+. atmo/install_rstudio.sh
 ```
