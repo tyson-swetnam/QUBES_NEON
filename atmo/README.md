@@ -50,6 +50,16 @@ singularity pull --writable --name osgeo-singularity.simg shub://tyson-swetnam/o
 
 ```
 
+To run QGIS or GRASS in their GUI configurations, open the Apache Guacamole Web Desktop and open the emulated terminal.
+
+```
+singularity exec osgeo-singularity.simg qgis
+```
+
+```
+singularity exec osgeo-singularity.simg grass74
+```
+
 # Install binaries and build from source.
 
 This folder has Bash `.sh` files that can be used for installing OSGEO software on a Linux (Ubuntu) virtual machine.
