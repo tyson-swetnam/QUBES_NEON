@@ -1,6 +1,33 @@
 # Run software from Containers
 
-## RStudio-Server w/ Docker
+## Jupyter Notebook & Lab with Anaconda
+
+First, install Anaconda3 with the `ezj` command. The default installation uses Python3.
+
+``` 
+
+$ ezj -3 -R 
+
+```
+
+After the installation you'll be running a Jupyter Notebook, you can exit by holding down the ctrl + C keys twice
+
+
+Change ownership of Anaconda3 to your user name so that you can install more software
+
+```
+$ sudo chown $USER:root /home/anaconda3 -R
+
+# Install Jupyter Lab Beta
+$ conda install -c conda-forge jupyterlab
+
+# Start Jupyter Lab
+
+jupyter lab -p 8888:8888
+
+```
+
+## Running RStudio-Server w/ Docker
 
 Run RStudio Server using Docker ([Boettiger and Eddelbuettel 2017](https://journal.r-project.org/archive/2017/RJ-2017-065/RJ-2017-065.pdf)).
 
