@@ -3,13 +3,13 @@
 First I pull the most recent version of PDAL from Docker:
 
 ```
-$ sudo docker pull pdal/pdal:latest
+$ docker pull pdal/pdal
 ```
 
 To run `docker` from `bash` I use:
 
 ```
-$ docker run -v ${PWD}:/data pdal/pdal:latest pdal info /data/<some file name here>.laz
+$ docker run -v ${PWD}:/data pdal/pdal pdal info /data/<some file name here>.laz
 ```
 
 The docker container needs to have a volume mounted from the localhost using the `-v` command immediately after the `docker run` is invoked. Additional commands such as interactive `-i` and are also useful with PDAL.
