@@ -2,15 +2,15 @@
 
 The following scripts install data science software on a CyVerse Atmosphere or XSEDE Jetstream instance.
 
-## Instructions
+## Step 1: Account Creation
 
-Register with CyVerse 
+[Create a CyVerse account](https://learning.cyverse.org/projects/cyverse-account-creation-quickstart/en/latest/) 
 
 or
 
-Register with NSF XSEDE and request an allocation on Jetstream.
+[Creat a NSF XSEDE account](https://portal.xsede.org/#/guest) and request an allocation on [Jetstream](https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/29720582/Quick+Start+Guide).
 
-# Starting an Instance
+## Step 2: Starting a Cloud Instance
 
 We suggest using a featured image with a Graphic User Interface (GUI)
 
@@ -26,7 +26,7 @@ ssh CyVerseUserName@<INSTANCE-IP-ADDRESS>
 
 Or from the Apache Guacamole Desktop, right click mouse, select Terminal Emulator
 
-## To access Clipboard in Guacamole
+### To access Clipboard in Guacamole
 
 - Open Clipboard and virtual keyboard
   - On a standard keyboard: `ctrl` + `alt` + `shift` key
@@ -38,7 +38,7 @@ Or from the Apache Guacamole Desktop, right click mouse, select Terminal Emulato
 
 - Right click with your mouse or double tap fingers on touchpad to paste in the web shell or Desktop
 
-## To change Web Desktop screen resolution:
+### Web Desktop screen resolution:
 
 type `xrandr` in a Web Desktop terminal to see available resolutions.
 
@@ -48,7 +48,9 @@ an example for 1080HD screen size:
 xrandr -s 1920x1080
 ```
 
-# Clone this Repository
+## Step 3: Clone this Repository onto the VM
+
+Open the Web Shell or `ssh` into the machine with the public IP address
 
 Change into a directory you're comfortable installing into and have `sudo` privileges.
 
@@ -61,10 +63,10 @@ git clone https://github.com/cyverse-gis/focus-forum.git
 change directory to the new repo with these installation scripts:
 
 ```
-cd focus-forum/atmo
+cd focus-forum
 ```
 
-# Setting up CyVerse Data Store and iRods iCommands 
+### Step 4: Setting up CyVerse Data Store and iRods iCommands 
 
 [CyVerse Instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
 
@@ -101,13 +103,13 @@ In your home directory, rename i-commands-auto.bash to .i-commands-auto.bash
 In your .bashrc or .bash_profile, enter the following: 
 source .i-commands-auto.bash
 
-# EZ Installation Quick Start Tutorial
+## Step 5: EZ Installation Quick Start Tutorial
 
 CyVerse has set up an `ez` installation for Docker, Singularity, and Jupyter Notebooks (via Anaconda)
 
 Follow the [CyVerse Learning Center's Quick Start](https://cyverse-ez-quickstart.readthedocs-hosted.com/en/latest/) 
 
-## install Jupyter Notebook & Lab
+### Jupyter Notebooks & Lab
 
 Install Anaconda with Python3 (Featured instances on Atmosphere and Jetstream)
 
@@ -116,6 +118,7 @@ ezj
 ```
 
 Change ownership of the Anaconda installation
+
 ```
 sudo chown $USER:iplant-everyone /opt/anaconda3 -R
 ```
@@ -141,6 +144,8 @@ ssh -nNT -L 8888:localhost:8888 $USER@$IP_ADDRESS
 ```
 
 #### Install [Google Drive to Jupyter Lab](https://github.com/jupyterlab/jupyterlab-google-drive)
+
+Note: This was broken recently...
 
 Requires [Node.js 5+](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
 
