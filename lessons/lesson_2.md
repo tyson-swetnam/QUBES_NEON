@@ -8,13 +8,11 @@ Here I provide several basic Python3 Notebooks for reading and downloading data 
 
 Similar calls can be written in R, or JavaScript. 
 
-<<<<<<< HEAD
 ## Step 1: NEON Data API
 
-### Contents (Python)
-=======
+
 ## Contents (Python)
->>>>>>> defad8b746450de3c37e6bca99f0315b2ce09459
+
 
 [NEON_api_python_lidar.ipynb]()
 
@@ -22,7 +20,7 @@ Similar calls can be written in R, or JavaScript.
 
 [NEON_api_python_reflectance.ipnb]()
 
-<<<<<<< HEAD
+
 ### Contents (R)
 
 [NEON_api_get_r_lidar.ipynb]()
@@ -43,5 +41,5 @@ Similar calls can be written in R, or JavaScript.
 
 [Using CyVerse and CyberDuck](http://cyberduck-quickstart.readthedocs.io/en/latest/#)
 =======
-## Contents (R)
->>>>>>> defad8b746450de3c37e6bca99f0315b2ce09459
+
+
