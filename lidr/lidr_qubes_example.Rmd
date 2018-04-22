@@ -9,7 +9,7 @@ output: html_document
 
 [lidR](https://github.com/Jean-Romain/lidR/wiki) is a R package created by Jean-Romain. It is built natively in R, and allows users to select from multiple segmentation techniques (e.g. watershed, 
 
-Example scripts provide below were written by Andrew Sanchez-Meador (Northen Arizona University), adapted for this example by Tyson L. Swetnam (University of Arizona).
+Example scripts provide below were written by Andrew Sanchez-Meador (Northern Arizona University), adapted for this example by Tyson L. Swetnam (University of Arizona).
 
 ```{r, echo=FALSE}
 # Check for packages

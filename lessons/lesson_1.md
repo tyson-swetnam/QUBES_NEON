@@ -1,20 +1,35 @@
-# Working on the cloud
+# Working on Cloud
 
-The following scripts install data science software on a CyVerse Atmosphere or XSEDE Jetstream instance.
+While these instructions are written for use on CyVerse Cloud service, called Atmosphere, you can also do the later lessons on a remote cluster, HPC, or localhost running Jupyter.
+
+<<<<<<< HEAD
+The following instructions involve the installation of data science software on CyVerse Atmosphere or XSEDE Jetstream instances.
 
 ## Step 1: Account Creation
 
+=======
+## Step 1: Account Creation
+
+>>>>>>> defad8b746450de3c37e6bca99f0315b2ce09459
 [Create a CyVerse account](https://learning.cyverse.org/projects/cyverse-account-creation-quickstart/en/latest/) 
 
 or
 
-[Creat a NSF XSEDE account](https://portal.xsede.org/#/guest) and request an allocation on [Jetstream](https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/29720582/Quick+Start+Guide).
+<<<<<<< HEAD
+Create a [NSF XSEDE account](https://portal.xsede.org/#/guest) and request an allocation on [Jetstream](https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/29720582/Quick+Start+Guide).
 
 ## Step 2: Starting a Cloud Instance
 
-We suggest using a featured image with a Graphic User Interface (GUI)
+I suggest using a featured image with a Graphic User Interface (GUI). 
+=======
+[Creat a NSF XSEDE account](https://portal.xsede.org/#/guest) and request an allocation on [Jetstream](https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/29720582/Quick+Start+Guide).
 
-On Atmosphere: [Ubuntu 14.04](https://atmo.cyverse.org/application/images/1135) or [16.04 GUI base](https://atmo.cyverse.org/application/images/1453).
+## Step 2: Starting a Cloud Instance
+>>>>>>> defad8b746450de3c37e6bca99f0315b2ce09459
+
+On Atmosphere, see: [Ubuntu 14.04](https://atmo.cyverse.org/application/images/1135) or [Ubuntu 16.04](https://atmo.cyverse.org/application/images/1453).
+
+On Jetstream, see: [Ubuntu 14.04](https://use.jetstream-cloud.org/application/images/54) or [Ubuntu 16.04](https://use.jetstream-cloud.org/application/images/107).
 
 Allow the instance to reach 'active' status. Instances  typically take 3-7 minutes to boot up the first time.
 

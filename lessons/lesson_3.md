@@ -14,5 +14,8 @@
 
 
 ## Vizualization
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> defad8b746450de3c37e6bca99f0315b2ce09459
