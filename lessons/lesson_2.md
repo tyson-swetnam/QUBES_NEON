@@ -37,9 +37,48 @@ Similar calls can be written in R, or JavaScript.
 
 [Official iCommands User](https://docs.irods.org/4.2.2/icommands/user/)
 
-# Step 3: 3rd Party software
+Setting up your CyVerse Data Store and iRODS iCommands on a virtual instance
+============================================================================
+
+[CyVerse Instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
+
+[Instructions from iRODS](https://packages.irods.org/)
+
+[Download from iRODS](https://irods.org/download/)
+
+```
+wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
+echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
+sudo apt-get update
+
+sudo apt-get install irods-icommands
+```
+
+```
+$ iinit
+```
+You will be queried to set up your `irods_environment.json`
+
+Enter the following:
+
+|statement|input|  
+|---------|-----|
+| DNS | *data.cyverse.org* |
+|port number|*1247*|
+|user name| *your user name*|
+|zone|*iplant*|
+
+Set up auto-complete for iCommands
+[instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
+
+Download [i-commands-auto.bash](https://pods.iplantcollaborative.org/wiki/download/attachments/6720192/i-commands-auto.bash).
+In your home directory, rename i-commands-auto.bash to .i-commands-auto.bash
+In your .bashrc or .bash_profile, enter the following: 
+source .i-commands-auto.bash
+
+#### 3rd Party software
 
 [Using CyVerse and CyberDuck](http://cyberduck-quickstart.readthedocs.io/en/latest/#)
-=======
+
 
 
