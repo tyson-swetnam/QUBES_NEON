@@ -72,7 +72,7 @@ change directory to the new repo with these installation scripts:
 cd focus-forum
 ```
 
-### Step 4: Setting up CyVerse Data Store and iRods iCommands 
+## Step 4: Setting up CyVerse Data Store and iRods iCommands 
 
 [CyVerse Instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
 
@@ -104,10 +104,13 @@ Enter the following:
 Set up auto-complete for iCommands
 [instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
 
-Download [i-commands-auto.bash](https://pods.iplantcollaborative.org/wiki/download/attachments/6720192/i-commands-auto.bash).
-In your home directory, rename i-commands-auto.bash to .i-commands-auto.bash
-In your .bashrc or .bash_profile, enter the following: 
-source .i-commands-auto.bash
+Download [`i-commands-auto.bash`](https://pods.iplantcollaborative.org/wiki/download/attachments/6720192/i-commands-auto.bash).
+
+In your home directory, rename `i-commands-auto.bash` to `.i-commands-auto.bash`
+
+In your `.bashrc` or `.bash_profile`, enter the following: 
+
+```source .i-commands-auto.bash```
 
 ## Step 5: EZ Installation Quick Start Tutorial
 
