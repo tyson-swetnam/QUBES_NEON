@@ -2,30 +2,21 @@
 
 While these instructions are written for use on CyVerse Cloud service, called Atmosphere, you can also do the later lessons on a remote cluster, HPC, or localhost running Jupyter.
 
-<<<<<<< HEAD
 The following instructions involve the installation of data science software on CyVerse Atmosphere or XSEDE Jetstream instances.
 
 ## Step 1: Account Creation
 
-=======
-## Step 1: Account Creation
-
->>>>>>> defad8b746450de3c37e6bca99f0315b2ce09459
 [Create a CyVerse account](https://learning.cyverse.org/projects/cyverse-account-creation-quickstart/en/latest/) 
 
 or
 
-<<<<<<< HEAD
 Create a [NSF XSEDE account](https://portal.xsede.org/#/guest) and request an allocation on [Jetstream](https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/29720582/Quick+Start+Guide).
 
 ## Step 2: Starting a Cloud Instance
 
 I suggest using a featured image with a Graphic User Interface (GUI). 
-=======
-[Creat a NSF XSEDE account](https://portal.xsede.org/#/guest) and request an allocation on [Jetstream](https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/29720582/Quick+Start+Guide).
 
-## Step 2: Starting a Cloud Instance
->>>>>>> defad8b746450de3c37e6bca99f0315b2ce09459
+[Creat a NSF XSEDE account](https://portal.xsede.org/#/guest) and request an allocation on [Jetstream](https://iujetstream.atlassian.net/wiki/spaces/JWT/pages/29720582/Quick+Start+Guide).
 
 On Atmosphere, see: [Ubuntu 14.04](https://atmo.cyverse.org/application/images/1135) or [Ubuntu 16.04](https://atmo.cyverse.org/application/images/1453).
 
